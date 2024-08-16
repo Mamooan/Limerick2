@@ -1,0 +1,899 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+#navbar{
+    height: 20vh;
+    width: 99.8%;
+    background-color: white;
+    border: 1px solid rgba(220, 220, 220, 0.212);
+    position: relative;
+    overflow: hidden;
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+#navbar>h1{
+
+    font-size: 35vh;
+    transform: scaleX(1.75);
+    margin-left: 150px;
+    color: rgba(220, 220, 220, 0.349);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -80px;
+    opacity: 0.8;
+
+   
+}
+
+#logo{
+    height: 10vh;
+    width: 30vh;
+    background-image: url(./Alexa/Alexa03.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 4vh;
+    left: 6vh;
+
+}
+
+#icon{
+
+    height: 10vh;
+    width: 30vh;
+    border: transparent;
+    position: absolute;
+    left: 170vh;
+    top: 5vh;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+}
+#one:hover{
+    color: pink;
+    cursor: pointer;
+}
+
+#two:hover{
+    color: pink;
+    cursor: pointer;
+}
+
+
+#three:hover{
+    color: pink;
+    cursor: pointer;
+}
+
+
+#four:hover{
+    color: pink;
+    cursor: pointer;
+}
+
+
+
+
+.parant{
+    display: grid;
+    grid-template-rows: 270px 270px 270px 270px 270px 250px;
+    grid-template-columns: 315px 315px 315px 315px;
+
+}
+.d{
+    background-size: 100% 100%;
+
+}
+.div1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+
+}
+.div8{
+    grid-area: 3/3/4/5;
+}
+.div9{
+    grid-area: 4/1/5/3;
+}
+.div14{
+    grid-area: 5/3/6/5;
+}
+.div15{
+    grid-area: 6/1/7/5;
+}
+.div1{
+    overflow: hidden;
+    /* position: relative; */
+
+}
+
+.d1{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Alexa/Alexa04.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+    transition-duration: 1s;
+}
+.d1:hover{
+    transform: scale(1.1) rotate(6deg);
+}
+.a1{
+    color: white;
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+    font-size: 60px;
+
+}
+.a1:hover{
+    color: pink;
+}
+.a2{
+    padding: 1.5% 2.5%;
+    background-color: rgba(252, 85, 85, 0.839);
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: none;
+}
+.a2:hover{
+    background: transparent;
+    color: pink;
+    border: 1px solid pink;
+
+}
+.b{
+    height: 2px;
+    width: 40%;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.707);
+    /* background-color: red; */
+}
+.b1{
+    position: absolute;
+    top: 170px;
+    /* left: 130px; */
+    width: 37%;
+    right: 0%;
+    border: 1px solid rgba(255, 255, 255, 0.662);
+    /* border: 1px solid red; */
+}
+.b2{
+    position: relative;
+    top: -330px;
+    left: 380px;
+    width: 60%;
+    transform: rotate(90deg);
+    /* border: 1px solid rgba(255, 255, 255, 0.665); */
+    /* border: 1px solid red; */
+
+}
+.b3{
+    position: relative;
+    top: -230px;
+    left: -150px;
+    width: 60%;
+    transform: rotate(90deg);
+    border: 1px solid rgba(255, 255, 255, 0.665);
+}
+.div2{
+    background-image: url(./Alexa/Alexa05.jpg);
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.div22{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Alexa/Alexa05.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    transition-duration: 1s;
+
+}
+.div22:hover{
+    transform: scale(1.1) rotate(5deg);
+
+}
+.div2::after{
+    content: '';
+    position: absolute;
+    height: 20%;
+    background-color: rgba(255, 192, 203, 0.800);
+    width: 50%;
+    left: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+    /* z-index: 2; */
+
+}
+.div2:hover::after{
+    left: 50%;
+}
+.div2::before{
+    content: '';
+    position: absolute;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.802);
+    width: 50%;
+    right: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+    z-index: 2;
+    
+}
+.div2:hover::before{
+    right: 50%;
+}
+.div2:hover .di{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.div4{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.div23{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Alexa/Alexa07.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    transition-duration: 1s;
+
+}
+.div23:hover{
+    transform: scale(1.1) rotate(5deg);
+
+}
+
+.div4::after{
+    content: '';
+    position: absolute;
+    height: 20%;
+    background-color: rgba(255, 192, 203, 0.800);
+    width: 50%;
+    left: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+    /* z-index: 2; */
+}
+.div4:hover::after{
+    left: 50%;
+}
+.div4::before{
+    content: '';
+    position: absolute;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.802);
+    width: 50%;
+    right: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+    z-index: 2;
+}
+.div4:hover::before{
+    right: 50%;
+}
+.di{
+    height: 7vh;
+    width: 25%;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 13px;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(40px);
+    transition-duration: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.di:hover{
+    background-color: #222222;
+    color: white;
+}
+.div4:hover .di{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+.div5{
+    background-image: url(./Alexa/Alexa08.jpg);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.div24{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Alexa/Alexa08.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    transition-duration: 1s;
+
+}
+.div24:hover{
+    transform: scale(1.1) rotate(5deg);
+
+}
+
+
+.div5::after{
+    content: '';
+    position: absolute;
+    height: 20%;
+    background-color: rgba(255, 192, 203, 0.800);
+    width: 50%;
+    left: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+    /* z-index: 2; */
+}
+.div5:hover::after{
+    left: 50%;
+}
+.div5::before{
+    content: '';
+    position: absolute;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.802);
+    width: 50%;
+    right: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+    z-index: 2;
+}
+.div5:hover::before{
+    right: 50%;
+}
+.di{
+    height: 7vh;
+    width: 25%;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 13px;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(40px);
+    transition-duration: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div5:hover .di{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+
+.div6{
+    background-image: url(./Alexa/Alexa09.jpg);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.div25{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Alexa/Alexa09.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    transition-duration: 1s;
+
+}
+.div25:hover{
+    transform: scale(1.1) rotate(5deg);
+
+}
+
+
+.div6::after{
+    content: '';
+    position: absolute;
+    height: 20%;
+    background-color: rgba(255, 192, 203, 0.800);
+    width: 50%;
+    left: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+    /* z-index: 2; */
+
+}
+.div6:hover::after{
+    left: 50%;
+}
+.div6::before{
+    content: '';
+    position: absolute;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.802);
+    width: 50%;
+    right: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+    z-index: 2;
+}
+.div6:hover::before{
+    right: 50%;
+}
+.di{
+    height: 7vh;
+    width: 15%;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 13px;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(40px);
+    transition-duration: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div6:hover .di{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+
+.div8{
+    background-image: url(./Alexa/Alexa11.jpg);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.div26{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Alexa/Alexa11.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    transition-duration: 1s;
+
+}
+.div26:hover{
+    transform: scale(1.1) rotate(3deg);
+
+}
+
+
+.div8::after{
+    content: '';
+    position: absolute;
+    height: 30%;
+    background-color: rgba(255, 192, 203, 0.800);
+    width: 50%;
+    left: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+    /* z-index: 2; */
+}
+.div8:hover::after{
+    left: 50%;
+}
+.div8::before{
+    content: '';
+    position: absolute;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.802);
+    width: 50%;
+    right: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+    z-index: 2;
+}
+.div8:hover::before{
+    right: 50%;
+}
+.da{
+    height: 7vh;
+    width: 15%;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 13px;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(40px);
+    transition-duration: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.da:hover{
+    background-color: #222222;
+    color: white;
+}
+.div8:hover .da{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+.div9{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.div9::after{
+    content: '';
+    position: absolute;
+    height: 30%;
+    background-color: rgba(255, 192, 203, 0.800);
+    width: 50%;
+    left: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+
+}
+.div9:hover::after{
+    left: 50%;
+}
+.div9::before{
+    content: '';
+    position: absolute;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.802);
+    width: 50%;
+    right: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+    z-index: 1;
+    
+}
+.div9:hover::before{
+    right: 50%;
+}
+
+.div9:hover .da{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.div17{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Alexa/Alexa12.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    transition-duration: 1s;
+
+}
+.div17:hover{
+    transform: scale(1.1) rotate(5deg);
+
+}
+
+
+
+
+
+
+
+.div10{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.div16{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Alexa/Alexa13.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    transition-duration: 1s;
+
+}
+.div16:hover{
+    transform: scale(1.1) rotate(3deg);
+
+}
+
+.div10::after{
+    content: '';
+    position: absolute;
+    height: 20%;
+    background-color: rgba(255, 192, 203, 0.800);
+    width: 50%;
+    left: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+
+}
+.div10:hover::after{
+    left: 50%;
+}
+.div10::before{
+    content: '';
+    position: absolute;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.802);
+    width: 50%;
+    right: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+    z-index: 1;
+    
+}
+.div10:hover::before{
+    right: 50%;
+}
+.di{
+    height: 7vh;
+    width: 15%;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 13px;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(40px);
+    transition-duration: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div10:hover .di{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+
+.div12{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.d7{
+    background-image: url(./Alexa/Alexa15.jpg);
+}
+
+.div12::after{
+    content: '';
+    position: absolute;
+    height: 20%;
+    background-color: rgba(255, 192, 203, 0.800);
+    width: 50%;
+    left: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+
+}
+.div12:hover::after{
+    left: 50%;
+}
+.div12::before{
+    content: '';
+    position: absolute;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.802);
+    width: 50%;
+    right: 100%;
+    transition-duration: 1s;
+    opacity: 0.7;
+    z-index: 1;
+    
+}
+.div12:hover::before{
+    right: 50%;
+}
+.div12:hover .di{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.div15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(220, 220, 220, 0.38);
+}
+.div18{
+    height: 10vh;
+    width: 14%;
+    margin: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.d8{
+    background-image: url(./Alexa/Alexa03.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+.div3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.d9{
+    background-image: url(./Alexa/Alexa06.jpg);
+    background-size: 100% 100%;
+}
+.div3>h1{
+    color: white;
+    z-index: 1;
+    font-size: 40px;
+}
+.div7{
+    position: relative;
+    overflow: hidden;
+    background-image: url(./Alexa/Alexa10.jpg);
+
+}
+.div7>h3{
+    text-align: center;
+    color: white;
+}
+.div7>p{
+    text-align: center;
+    color: white;
+    font-size: 33px;
+}
+.div13{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./Alexa/Alexa16.jpg);
+}
+.div13>h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+
+}
+.div13>i{
+    font-size: 40px;
+    color: rgba(17, 17, 17, 0.725);
+    background-color: white;
+    border-radius: 50%;
+
+}
+.div11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+.d10{
+    background-image: url(./Alexa/Alexa14.jpg);
+    background-size: 100% 100%;
+}
+.div11>h1{
+    color: #222222;
+    z-index: 2;
+    position: relative;
+    bottom: 20px;
+    font-size: 40px;
+
+}
+.a{
+    height: 10vh;
+    width: 70%;
+    background-image: linear-gradient(to left,#CF8CFE,#f98ef783);
+    color: white;
+    z-index: 2;
+    border-radius: 30px;
+    border: none;
+    transition-duration: 1s;
+
+
+}
+.a:hover{
+    background-image: linear-gradient(to right,#CF8CFE,#f98ef783);
+    
+}
+.div14{
+    overflow: hidden;
+    position: relative;
+}
+.div14::after{
+    content: '';
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.623);
+    right: 0%;
+    bottom: 0%;
+    
+}
+.d11{
+   background-image: url(./Alexa/Alexa17.jpg);
+   background-size: 100% 100%;
+}
+.div14>i{
+    z-index: 2;
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+
+
+
+}
+.div14>p{
+    z-index: 2;
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+
+}
+.div14>h3{
+    z-index: 2;
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+
+}
